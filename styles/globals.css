@@ -11,10 +11,9 @@ body {
 }
 
 .wrapper {
-    flex-direction: column;
-    gap: 16px;
-    width: 100%;
-    min-height: 100vh;
+display: flex;
+flex-direction: column;
+gap: 20px;
 }
 
 .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8 {
@@ -43,6 +42,11 @@ body {
     line-height: 1.2;
 }
 
+ .text_variant6b, .text_variant6a {
+     font-size: 18px;
+    font-weight: 450;
+    text-align: center;
+ }
 .h10x { color: hsl(39, 100%, 71%); }
 .h-faster { font-style: italic; }
 
@@ -50,11 +54,8 @@ body {
     text-align: center;
     margin-bottom: 8px;
 }
-.text_variant6a {
-  padding-left:20px;
-  font-size:50px;
-}
-.text_variant, .text_variant2, .text_variant3, .text_variant4a, .text_variant4b, .text_variant5, .text_variant6a, .text_variant7, .text_variant8 {
+
+.text_variant, .text_variant2, .text_variant3, .text_variant4a, .text_variant4b, .text_variant5, .text_variant7, .text_variant8 {
     font-size: 18px;
     font-weight: 450;
     padding-left: 4px;
@@ -65,13 +66,17 @@ body {
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 30px;
         width: 100%;
         row-gap: 30px;
-        justify-content: space-between;
+       
+    }
+
+    body {
+    padding: 20px;
     }
     .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8 {
-        width: 45%;
+        width: 48%;
         height: 350px;
         padding: 20px 0;
     }
@@ -81,8 +86,16 @@ body {
 }
 
 @media screen and (min-width: 1040px) {
+    .wrapper {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        width: 100%;
+        row-gap: 30px;
+    }
     .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8 {
-        width: 30%;
+        width: 31%;
         height: 350px;
         padding: 40px 0;
     }
