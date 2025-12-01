@@ -6,7 +6,7 @@
 
 body {
     background-color: #f4ebf9;
-    padding: 24px 6px; /* slightly reduced for mobile */
+    padding: 24px 16px; /* slightly reduced for mobile */
     font-family: 'DM Sans', sans-serif;
 }
 
@@ -73,7 +73,7 @@ gap: 20px;
     }
 
     body {
-    padding: 20px;
+    padding: 10px;
     }
     .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8 {
         width: 48%;
